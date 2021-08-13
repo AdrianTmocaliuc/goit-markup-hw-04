@@ -81,6 +81,10 @@ header {
   border: 1px solid #ececec;
 }
 
+.header-contact-icon {
+  margin-right: 10px;
+}
+
 .container-header {
   display: flex;
 }
@@ -152,6 +156,12 @@ header {
 }
 
 .container-hero {
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero/hero-image.jpg);
+  background-size: cover;
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -190,10 +200,6 @@ header {
 }
 
 /* -----------------------------Section Description -------------------------- */
-
-.hide {
-  display: none;
-}
 
 .section-title {
   color: var(--main-text-color);
@@ -272,7 +278,7 @@ header {
   margin-right: 30px;
 }
 
-.section-members li {
+.section-members-list {
   width: 270px;
   background: #ffffff;
   border-radius: 0px;
@@ -291,6 +297,10 @@ header {
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+.social-list {
+  display: flex;
 }
 
 /*-------------------------------  Portofolio section ------------------------------- */
