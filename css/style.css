@@ -483,8 +483,11 @@ header {
   border-right: 1px solid #eeeeee;
   border-left: 1px solid #eeeeee;
 }
-.section-element-link:hover {
-  cursor: pointer;
+.section-element-link {
+  color: var(--second-text-color);
+}
+.section-element-item:hover,
+.section-element-item:focus {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06),
     0px 1px 1px rgba(0, 0, 0, 0.12);
 }
