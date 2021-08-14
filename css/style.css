@@ -158,6 +158,11 @@ header {
   fill: var(--second-text-color);
 }
 
+.header-tel,
+.header-mail {
+  display: flex;
+}
+
 /*------------------------------- Hero section -------------------------------*/
 
 .hero {
