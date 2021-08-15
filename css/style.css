@@ -508,6 +508,7 @@ header {
 }
 .section-element-link {
   color: var(--second-text-color);
+  display: block;
 }
 .section-element-link:hover,
 .section-element-link:focus {
@@ -586,8 +587,15 @@ header {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+}
+
+.footer-social-list-link {
   margin-right: 10px;
 }
+/* .footer-social-list-link:not(:last-child) {
+  margin-right: 10px;
+} */
+
 .footer-social-list-icon {
   fill: #ffffff;
 }
